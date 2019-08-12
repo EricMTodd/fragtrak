@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('<h1>fragtrak home</h1>')
+    return render(request, 'fragtrak/home.html')
